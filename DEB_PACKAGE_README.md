@@ -133,30 +133,6 @@ dpkg -I hraji-screen-recorder_1.0.0_amd64.deb
 dpkg -s hraji-screen-recorder
 ```
 
-## 🔍 Package Structure
-
-```
-debian/
-├── DEBIAN/
-│   ├── control          # Package metadata
-│   ├── postinst         # Installation script
-│   ├── prerm            # Pre-removal script
-│   └── postrm           # Post-removal script
-├── opt/
-│   └── hraji-screen-recorder/
-│       ├── screen_recorder.py
-│       ├── requirements.txt
-│       └── icon.png
-└── usr/
-    └── share/
-        ├── applications/
-        │   └── hraji-screen-recorder.desktop
-        └── doc/
-            └── hraji-screen-recorder/
-                ├── README.md
-                ├── LICENSE
-                └── copyright
-```
 
 ## 🛠️ Installation Process Details
 
@@ -309,5 +285,6 @@ sudo apt-mark unhold hraji-screen-recorder
 3. GitHub issues में report करें
 
 ---
+### This Documantation is Genreated by AI
 
 **Happy Recording! 🎥**
