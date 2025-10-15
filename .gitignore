@@ -82,3 +82,6 @@ docs/_build/
 
 # PyInstaller
 *.spec
+
+
+setup_github.sh
